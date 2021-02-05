@@ -1,4 +1,5 @@
 ## Typing Errors in Factual Knowledge Graphs: Severity and Possible Ways Out
+[Paper](https://arxiv.org/abs/2102.02307)  [Data](https://drive.google.com/drive/folders/18PVGaDJy_JaJV8jezYeRYteFlomoBfnt?usp=sharing)
 
 ### Quick start
 1. Download `data.tar.xz` from [Google Drive](https://drive.google.com/drive/folders/18PVGaDJy_JaJV8jezYeRYteFlomoBfnt?usp=sharing).
@@ -20,6 +21,15 @@ tar -C data -xJf data.tar.xz
 ### Reference
 Please cite the following papers if you intend to use the data or code.
 ```bib
+@misc{yao2021typing,
+      title={Typing Errors in Factual Knowledge Graphs: Severity and Possible Ways Out}, 
+      author={Peiran Yao and Denilson Barbosa},
+      year={2021},
+      eprint={2102.02307},
+      archivePrefix={arXiv},
+      primaryClass={cs.DB}
+}
+
 @article{lehmann2015dbpedia,
   title     = {DBpedia--a Large-Scale, Multilingual Knowledge Base Extracted from Wikipedia},
   author    = {Lehmann, Jens and Isele, Robert and Jakob, Max and Jentzsch, Anja and Kontokostas, Dimitris and Mendes, Pablo N and Hellmann, Sebastian and Morsey, Mohamed and Van Kleef, Patrick and Auer, S{\"o}ren and others},
