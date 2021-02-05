@@ -1,5 +1,5 @@
 ## Typing Errors in Factual Knowledge Graphs: Severity and Possible Ways Out
-[Paper](https://arxiv.org/abs/2102.02307)  [Data](https://drive.google.com/drive/folders/18PVGaDJy_JaJV8jezYeRYteFlomoBfnt?usp=sharing)
+[[Paper]](https://arxiv.org/abs/2102.02307)  [[Data]](https://drive.google.com/drive/folders/18PVGaDJy_JaJV8jezYeRYteFlomoBfnt?usp=sharing)
 
 ### Quick start
 1. Download `data.tar.xz` from [Google Drive](https://drive.google.com/drive/folders/18PVGaDJy_JaJV8jezYeRYteFlomoBfnt?usp=sharing).
