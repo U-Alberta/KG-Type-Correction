@@ -22,12 +22,22 @@ tar -C data -xJf data.tar.xz
 Please cite the following papers if you intend to use the data or code.
 ```bib
 @misc{yao2021typing,
-      title={Typing Errors in Factual Knowledge Graphs: Severity and Possible Ways Out}, 
-      author={Peiran Yao and Denilson Barbosa},
-      year={2021},
-      eprint={2102.02307},
-      archivePrefix={arXiv},
-      primaryClass={cs.DB}
+  author       = {Peiran Yao and
+                  Denilson Barbosa},
+  editor       = {Jure Leskovec and
+                  Marko Grobelnik and
+                  Marc Najork and
+                  Jie Tang and
+                  Leila Zia},
+  title        = {Typing Errors in Factual Knowledge Graphs: Severity and Possible Ways
+                  Out},
+  booktitle    = {{WWW} '21: The Web Conference 2021, Virtual Event / Ljubljana, Slovenia,
+                  April 19-23, 2021},
+  pages        = {3305--3313},
+  publisher    = {{ACM} / {IW3C2}},
+  year         = {2021},
+  url          = {https://doi.org/10.1145/3442381.3449977},
+  doi          = {10.1145/3442381.3449977},
 }
 
 @article{lehmann2015dbpedia,
