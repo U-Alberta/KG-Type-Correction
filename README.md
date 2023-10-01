@@ -9,7 +9,8 @@ mkdir data
 tar -C data -xJf data.tar.xz
 ```
 3. Install dependencies `pip3 install -r requirements.txt`
-3. Run `python3 model.py model-name [eval]`. (Python >= 3.6)
+4. Run `python3 create-dataset.py` to create a version of DBpedia-c dataset.
+5. Run `python3 model.py model-name [eval]`. (Python >= 3.6)
 
 ### Advanced
 * The data are available in a more portable json format. You can download `json-version.tar.xz` from [Google Drive](https://drive.google.com/drive/folders/18PVGaDJy_JaJV8jezYeRYteFlomoBfnt?usp=sharing).
@@ -38,6 +39,33 @@ Please cite the following papers if you intend to use the data or code.
   year         = {2021},
   url          = {https://doi.org/10.1145/3442381.3449977},
   doi          = {10.1145/3442381.3449977},
+}
+
+@inproceedings{caminhas2019detecting,
+  author       = {Daniel Caminhas and
+                  Daniel Cones and
+                  Natalie Hervieux and
+                  Denilson Barbosa},
+  editor       = {Donatella Firmani and
+                  Valter Crescenzi and
+                  Andrea De Angelis and
+                  Xin Luna Dong and
+                  Maurizio Mazzei and
+                  Paolo Merialdo and
+                  Divesh Srivastava},
+  title        = {Detecting and Correcting Typing Errors in DBpedia},
+  booktitle    = {Proceedings of the 1st International Workshop on Challenges and Experiences
+                  from Data Integration to Knowledge Graphs co-located with the 25th
+                  {ACM} {SIGKDD} International Conference on Knowledge Discovery {\&}
+                  Data Mining {(KDD} 2019), Anchorage, Alaska, August 5, 2019},
+  series       = {{CEUR} Workshop Proceedings},
+  volume       = {2512},
+  publisher    = {CEUR-WS.org},
+  year         = {2019},
+  url          = {https://ceur-ws.org/Vol-2512/paper6.pdf},
+  timestamp    = {Fri, 10 Mar 2023 16:22:46 +0100},
+  biburl       = {https://dblp.org/rec/conf/kdd/CaminhasCHB19.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
 @article{lehmann2015dbpedia,
